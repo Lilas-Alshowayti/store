@@ -9,12 +9,12 @@ const Navbar = () => {
     <nav className="navbar">
       <ul className="nav-content">
         <li>
-          <Link to="/">
+          <Link to="/store">
             <h1>LOGO</h1>
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/">Store</Link>
+          <Link to="/store">Store</Link>
         </li>
         <li className="nav-item">
           <Link to="/cart">Cart</Link>
