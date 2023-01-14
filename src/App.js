@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Store />} />
+          <Route path="/store" exact element={<Store />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
